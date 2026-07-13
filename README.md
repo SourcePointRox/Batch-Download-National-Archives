@@ -1,4 +1,7 @@
 # Batch-Download-National-Archives
+Note!!!:The original script(na_download.py) downloads JPEG2000 files converted from standard JPEGs rather than the official source to accommodate the workflow.
+If you need to pull JPEG2000 files directly from the official source, download the JP2-fix.py script.
+
 Code for batch downloading resources from the National Archives of Japan following the website URL format revision in 2026
 
 Code Dependencies:requests, pikepdf, pillow（IIIF)
